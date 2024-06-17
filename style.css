@@ -1,0 +1,83 @@
+ .card .icon{
+    width: fit-content;
+    border-radius: 50%;
+    background-color: #d1ba8ad6;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+
+.scnd_sec{
+    background-color: #e5e5e5;
+}
+
+  .card{
+    background-color: #fff;
+    padding: 2rem;
+    border-top: 6px solid #d1ba8ad6;
+}
+
+
+.card .num{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #d1ba8ad6;
+}
+
+.card .txt{
+    color: #000;
+    font-weight: 600;
+}
+
+
+  .uk-margin-auto{
+    margin: auto !important;
+  }
+
+  .uk-button-default{
+    background-color: #d1ba8ad6;
+    color: #fff;
+    border-radius: 22px;
+  }
+  .uk-button-default:hover{
+    border: 1px solid #d1ba8ad6;;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .real_time_visua p{
+    line-height: 1.6;
+    font-weight: 100;
+    font-size: 1.3rem;
+  }
+  .real_time_visua h2{
+    font-weight: 100;
+    font-size: 3.3rem !important;
+  }
+
+
+
+  @media(min-width:980px) {
+    .wrapper{
+        margin-top: -10rem;
+    }
+  }
+
+  @media (min-width:680px){
+    .border-web{
+  border-right: 1px solid #ECE9E9;
+}
+}
+
+
+.insta-card img{
+    height: 358px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.footer{
+    padding: 1rem 0;
+    background-color: #e6e6e6;
+}
